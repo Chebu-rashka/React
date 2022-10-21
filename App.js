@@ -30,17 +30,48 @@
 
 // export default App;
 
+// import './App.css';
+// import CarOwnerParent from './car-owners-prop/parent';
+
+//ene door bga car owner gesen dasgaliinh
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       <CarOwnerParent />
+//     </div>
+//   )
+// }
+
+// export default App;
+
+// import './App.css';
+// import AirbnbParent from './airbnb/airbnb-parent'
+// import NavParent from './airbnb/navbar'
+// import IconBar from './airbnb/iconbar'
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       <NavParent/>
+//       <IconBar/>
+//       <AirbnbParent/>
+//     </div>
+//   )
+// }
+
+// export default App;
+
 import './App.css';
-import CarOwnerParent from './car-owners-prop/parent';
-
-
+import FireworkState from './Component/fireworks/firework-exercise';
 
 function App() {
   return (
     <div className='App'>
-      <CarOwnerParent />
+      {/* <DemoUsesStates /> */}
+      < FireworkState/>
     </div>
-  )
+  );
 }
 
 export default App;
