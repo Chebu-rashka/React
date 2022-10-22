@@ -62,14 +62,28 @@
 
 // export default App;
 
+
+// import './App.css';
+// import FireworkState from './Component/exercise/counter';
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       {/* <DemoUsesStates /> */}
+//       < FireworkState/>
+//     </div>
+//   );
+// }
+
+// export default App;
 import './App.css';
-import FireworkState from './Component/fireworks/firework-exercise';
+import CounterStates from './Component/exercise/counter';
 
 function App() {
   return (
     <div className='App'>
-      {/* <DemoUsesStates /> */}
-      < FireworkState/>
+      <CounterStates />
+      {/* < FireworkState/> */}
     </div>
   );
 }
