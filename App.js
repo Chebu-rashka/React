@@ -76,16 +76,29 @@
 // }
 
 // export default App;
+// import './App.css';
+// import CounterStates from './Component/exercise/counter';
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       <CounterStates />
+//       {/* < FireworkState/> */}
+//     </div>
+//   );
+// }
+
+// export default App;
 import './App.css';
-import CounterStates from './Component/exercise/counter';
+import StatusStates from './Component/exercise/statuspicker';
 
 function App() {
   return (
     <div className='App'>
-      <CounterStates />
-      {/* < FireworkState/> */}
+      <StatusStates />
     </div>
   );
 }
 
 export default App;
+
