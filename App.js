@@ -45,7 +45,7 @@
 
 // export default App;
 
-// import './App.css';
+// import './airbnb/airbnb.css'
 // import AirbnbParent from './airbnb/airbnb-parent'
 // import NavParent from './airbnb/navbar'
 // import IconBar from './airbnb/iconbar'
@@ -77,25 +77,27 @@
 
 // export default App;
 // import './App.css';
-// import CounterStates from './Component/exercise/counter';
+// import FireworkStates from './Component/exercise/firework-exercise';
 
 // function App() {
 //   return (
 //     <div className='App'>
-//       <CounterStates />
-//       {/* < FireworkState/> */}
+//       {/* <CounterStates /> */}
+//       < FireworkStates/>
 //     </div>
 //   );
 // }
 
 // export default App;
 import './App.css';
-import StatusStates from './Component/exercise/statuspicker';
+import ToDoListParent from './to-do-list/todo-parent';
+
 
 function App() {
   return (
     <div className='App'>
-      <StatusStates />
+      {/* <LanguageStates /> */}
+      <ToDoListParent />
     </div>
   );
 }
