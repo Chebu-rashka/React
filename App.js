@@ -77,30 +77,83 @@
 
 // export default App;
 // import './App.css';
-// import FireworkStates from './Component/exercise/firework-exercise';
+// import SampleData from './Component/exercise/jsondata';
+
+
 
 // function App() {
 //   return (
 //     <div className='App'>
 //       {/* <CounterStates /> */}
-//       < FireworkStates/>
+//       {/* < FireworkStates/> */}
+//        < SampleData/>
+
 //     </div>
 //   );
 // }
 
 // export default App;
-import './App.css';
-import ToDoListParent from './to-do-list/todo-parent';
+// import './App.css';
+// import LanguagePicker from './Component/exercise/languagePicker'
+
+
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       <LanguagePicker />
+//       {/* <ToDoListParent /> */}
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import CarOwnerParent from './car-owners-prop/parent';
+
+
+
+// function App() {
+//   return (
+//     <div className='App'>
+//        < CarOwnerParent/>
+
+//     </div>
+//   )
+// }
+
+// export default App
+// import React,{useState} from "react";
+// import './App.css'
+
+// const App=()=>{
+// const[state, setState]=useState(true)
+// return(
+//   <div className={state ? "green": "red"}>
+//     {state ? "true" : "false"}
+//     <button onClick={()=>setState((curr)=>!curr)}>Change status</button>
+
+//   </div>
+// )
+
+// }
+
+// export default App
+
+import './exercise/statuspicker.css';
+import StatusPicker from './exercise/statuspicker';
+
 
 
 function App() {
   return (
     <div className='App'>
-      {/* <LanguageStates /> */}
-      <ToDoListParent />
+      < StatusPicker/>
+      {/* <LanguagePicker /> */}
+      {/* <ToDoListParent /> */}
     </div>
-  );
+  )
 }
 
-export default App;
-
+export default App

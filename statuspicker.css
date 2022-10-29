@@ -1,0 +1,22 @@
+.status-wrapper{
+    display: flex;
+    align-items: baseline;
+}
+.status-circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.active{
+    background-color: green;
+}
+
+.offline{
+    background-color: orange;
+}
+.away{
+    background-color: black;
+}
+.busy{
+    background-color: blue;
+}
